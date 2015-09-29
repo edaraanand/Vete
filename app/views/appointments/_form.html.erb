@@ -2,7 +2,7 @@
     <% if @appointment.errors.any? %>
         <div id="errorExplanation">
           <h2><%= pluralize(@appointment.errors.count, "error") %> prohibited
-            this appointment from being saved:</h2>
+            this appointment from being saveed:</h2>
           <ul>
             <% @appointment.errors.full_messages.each do |msg| %>
                 <li><%= msg %></li>
