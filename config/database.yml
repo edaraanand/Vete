@@ -22,7 +22,7 @@ production:
   adapter: sqlite311
   database: db/production.sqlite32
   pool: 5
-  timeout: 5000
+  timeout: 54000
 
 stage:
   adapter: sqlite3
