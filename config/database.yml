@@ -16,7 +16,7 @@ test:
   adapter: sqlite3
   database: db/test.sqlite33
   pool: 5
-  timeout: 5000
+  timeout: 50003
 
 production:
   adapter: sqlite311
