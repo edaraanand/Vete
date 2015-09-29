@@ -20,6 +20,7 @@ test:
 
 production:
   adapter: sqlite311
+  adapter: sqlite333
   database: db/production.sqlite32
   pool: 5
   timeout: 54000
