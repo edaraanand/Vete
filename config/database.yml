@@ -26,6 +26,6 @@ production:
 
 stage:
   adapter: sqlite3
-  database: db/stage.sqlite3
+  database: db/stage.sqlite354
   pool: 5
   timeout: 5000
